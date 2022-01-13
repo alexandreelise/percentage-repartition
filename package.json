@@ -1,0 +1,28 @@
+{
+  "name": "percentage-repartition",
+  "version": "1.0.0",
+  "description": "Compute a percentage repartition based on possibly fixed percentage values in a dataset",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandreelise/percentage-repartition.git"
+  },
+  "keywords": [
+    "algorithm",
+    "math",
+    "map",
+    "reduce",
+    "percentage",
+    "utilities"
+  ],
+  "author": "Alexandre ELISÉ <contact@alexapi.cloud> (https://alexapi.cloud/)",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/alexandreelise/percentage-repartition/issues"
+  },
+  "homepage": "https://github.com/alexandreelise/percentage-repartition#readme"
+}
