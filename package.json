@@ -20,7 +20,7 @@
     "utilities"
   ],
   "author": "Alexandre ELISÉ <contact@alexapi.cloud> (https://alexapi.cloud/)",
-  "license": "GPL-2.0-or-later",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/alexandreelise/percentage-repartition/issues"
   },

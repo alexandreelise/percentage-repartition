@@ -33,6 +33,29 @@ console.log(result);
 //result: [ 100, [ 40.5, 25, 30.5, 4 ] ]
 
 ```
+-------------------------------
+## USE CASE SCENARIO
+> Scenario : Let's say you want to split percentage between 3 people and the rest is for the "system" (owner: 40%, manager: 20%, developer: 10%, system)
+
+Here is the config for that scenario:
+
+```js
+const maxTotal = 100;
+
+let data = [
+    [40, 1, 0], // last 0 means stay as is
+    [20, 1, 0],
+    [10, 1, 0],
+    [0, 1, 1]
+];
+
+let result = percentageRepartition(maxTotal, data);
+
+console.log(result);
+// result: [ 100, [ 40, 20, 10, 30 ] ]
+
+```
+In this case it calculated that 30% goes back to the "system" by incrementing one by one (second digit in the fourth array ) and starting at 0 (first digit in the fourth array) until maxTotal - 40+20+10 equals 0
 
 -------------------------------
 
